@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+}
+
+main {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.screen1 {
+  width: 42.8rem;
+  height: 42.4rem;
+  background-color: white;
+}
+
+.screen2 {
+  width: 42.8rem;
+  height: 56.4rem;
+  background-color: white;
+}
+
+.hide {
+  display: none;
+}
